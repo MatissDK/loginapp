@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18f6eaca-25e2-491d-b1ba-f9acd92e69f1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/user.js" afterPath="$PROJECT_DIR$/models/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/users.js" afterPath="$PROJECT_DIR$/routes/users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layouts/layout.handlebars" afterPath="$PROJECT_DIR$/views/layouts/layout.handlebars" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="scraper" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="25" column="72" lean-forward="false" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="804">
+              <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/error.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layouts/layout.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="100" lean-forward="true" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
+              <folding>
+                <element signature="e#563#570#1#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connection.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/connection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="82" column="12" lean-forward="true" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/error.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Task</find>
+      <find>mon</find>
+      <find>erro</find>
+      <find>user</find>
+      <find>loginA</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/db/connection.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/32bb4685-76d9-437b-843a-9754332302e6/console.sql" />
+        <option value="$PROJECT_DIR$/models/user.js" />
+        <option value="$PROJECT_DIR$/routes/error.js" />
+        <option value="$PROJECT_DIR$/views/error.handlebars" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/views/layouts/layout.handlebars" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginapp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginapp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginapp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginapp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginapp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginapp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginapp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\matiss\Desktop\NODE\loginapp\db" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18f6eaca-25e2-491d-b1ba-f9acd92e69f1" name="Default" comment="" />
+      <created>1496859651648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1496859651648</updated>
+      <workItem from="1496859657985" duration="8786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8786000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1433902" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26795283" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://DATABASE/c7d71a6a-2bd8-45ba-a740-1d01eee18ea7">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>c7d71a6a-2bd8-45ba-a740-1d01eee18ea7</OriginalElement>
+          <nodes>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.CLIENT_STATISTICS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_FT_INDEX_CACHE</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_CMP_PER_INDEX_RESET</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.TABLESPACES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.CHANGED_PAGE_BITMAPS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.SESSION_STATUS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_SYS_TABLESTATS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.TABLE_CONSTRAINTS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.ENABLED_ROLES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.TABLE_STATISTICS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.SESSION_VARIABLES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.REFERENTIAL_CONSTRAINTS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.ALL_PLUGINS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_SYS_COLUMNS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.ROUTINES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.CHARACTER_SETS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_CMP_PER_INDEX</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_SYS_FOREIGN_COLS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.GLOBAL_STATUS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INDEX_STATISTICS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.PARTITIONS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_LOCKS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.XTRADB_READ_VIEW</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.PLUGINS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_FT_CONFIG</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.TABLES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_BUFFER_POOL_STATS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.SCHEMA_PRIVILEGES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.PROCESSLIST</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_METRICS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_CMP_RESET</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_TABLESPACES_SCRUBBING</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_SYS_TABLESPACES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_TABLESPACES_ENCRYPTION</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.USER_STATISTICS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_SYS_FOREIGN</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.PARAMETERS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_SYS_SEMAPHORE_WAITS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.ENGINES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.KEY_COLUMN_USAGE</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.COLLATIONS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_SYS_DATAFILES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_MUTEXES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_BUFFER_PAGE</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.SPATIAL_REF_SYS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.GEOMETRY_COLUMNS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.XTRADB_RSEG</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_CMPMEM_RESET</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.VIEWS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_CMP</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_TRX</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_SYS_INDEXES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_FT_BEING_DELETED</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.TABLE_PRIVILEGES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.APPLICABLE_ROLES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.USER_PRIVILEGES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_FT_DEFAULT_STOPWORD</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.SYSTEM_VARIABLES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.COLLATION_CHARACTER_SET_APPLICABILITY</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.XTRADB_INTERNAL_HASH_TABLES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_CHANGED_PAGES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.PROFILING</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_SYS_FIELDS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.GLOBAL_VARIABLES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.TABLE:test.task</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.TRIGGERS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.FILES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_FT_INDEX_TABLE</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_FT_DELETED</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.EVENTS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.STATISTICS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.KEY_CACHES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.SCHEMATA</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_LOCK_WAITS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.COLUMN_PRIVILEGES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_BUFFER_PAGE_LRU</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_SYS_TABLES</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.COLUMNS</node>
+            <node x="" y="">c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.VIEW:information_schema.INNODB_CMPMEM</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.14951810367283147" x="1848.0" y="2233.8754355400697" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c7d71a6a-2bd8-45ba-a740-1d01eee18ea7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.SCHEMA:test">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>c7d71a6a-2bd8-45ba-a740-1d01eee18ea7.SCHEMA:test</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="83.0" y="48.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/32bb4685-76d9-437b-843a-9754332302e6.SCHEMA:scraper">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>32bb4685-76d9-437b-843a-9754332302e6.SCHEMA:scraper</OriginalElement>
+          <nodes>
+            <node x="" y="">32bb4685-76d9-437b-843a-9754332302e6.TABLE:scraper.kriminalprocess</node>
+            <node x="" y="">32bb4685-76d9-437b-843a-9754332302e6.TABLE:scraper.administrativais_parkapuma_process</node>
+            <node x="" y="">32bb4685-76d9-437b-843a-9754332302e6.TABLE:scraper.login</node>
+            <node x="" y="">32bb4685-76d9-437b-843a-9754332302e6.TABLE:scraper.links</node>
+            <node x="" y="">32bb4685-76d9-437b-843a-9754332302e6.TABLE:scraper.administrativais_process</node>
+            <node x="" y="">32bb4685-76d9-437b-843a-9754332302e6.TABLE:scraper.last_update</node>
+            <node x="" y="">32bb4685-76d9-437b-843a-9754332302e6.TABLE:scraper.tiesa</node>
+            <node x="" y="">32bb4685-76d9-437b-843a-9754332302e6.TABLE:scraper.civilprocess</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7078059071729957" x="442.7928464977646" y="481.43964232488827" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f5f8c178/32bb4685-76d9-437b-843a-9754332302e6/scraper.kriminalprocess">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/passport-local/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f5f8c178/32bb4685-76d9-437b-843a-9754332302e6/scraper.login">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/32bb4685-76d9-437b-843a-9754332302e6/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="72" lean-forward="false" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="804">
+          <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="82" column="12" lean-forward="true" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/layout.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="100" lean-forward="true" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
+          <folding>
+            <element signature="e#563#570#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
