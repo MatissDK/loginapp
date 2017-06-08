@@ -7,15 +7,13 @@ var expressValidator = require('express-validator');
 var flash = require('connect-flash');
 var session = require('express-session');
 var passport = require('passport');
-var LocalStrategy = require('passport-local').Strategy;
-var mongo = require('mongodb');
-var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/loginapp');
-var db = mongoose.connection;
+// mongoose.connect('mongodb://localhost/loginapp');
+// var db = mongoose.connection;
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var error = require('./routes/error');
 
 // Init App
 var app = express();
@@ -79,8 +77,16 @@ app.use(function (req, res, next) {
 app.use('/', routes);
 app.use('/users', users);
 
+//app.use('*', error);
+
+app.get('*', function(req, res){
+    res.render('error');
+});
+
+
+
 // Set Port
-app.set('port', (process.env.PORT || 3000));
+app.set('port', (process.env.PORT || 4000));
 
 app.listen(app.get('port'), function(){
 	console.log('Server started on port '+app.get('port'));
