@@ -56,13 +56,12 @@ router.post('/register', function(req, res){
 
 passport.use(new LocalStrategy(
   function(username, password, done) {
-  	console.log(username);
    User.getUserByUsername(username, function(err, rows){
    	if(err) throw err;
    	if(!rows.length){
    		return done(null, false, {message: 'Unknown User'});
    	}
-	console.log(rows[0].password);
+
    	User.comparePassword(password, rows[0].password, function(err, isMatch){
    		if(err) throw err;
    		if(isMatch){

@@ -13,7 +13,7 @@ var passport = require('passport');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
-var error = require('./routes/error');
+// var sub = require('./routes/sub');
 
 // Init App
 var app = express();
@@ -76,8 +76,8 @@ app.use(function (req, res, next) {
 
 app.use('/', routes);
 app.use('/users', users);
+// app.use('/sub', sub);
 
-//app.use('*', error);
 
 app.get('*', function(req, res){
     res.render('error');
