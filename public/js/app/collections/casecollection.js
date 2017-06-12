@@ -3,7 +3,7 @@ var Case = require('./../models/case');
 
 var CaseCollection = Backbone.Collection.extend({
     model: Case,
-    //url: 'http://localhost:4000/todo'
+    url: 'sub/getCase'
 });
 
 module.exports = CaseCollection;

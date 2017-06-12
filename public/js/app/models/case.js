@@ -2,8 +2,8 @@ var Backbone = require('backbone');
 
 var Case = Backbone.Model.extend({
     defaults: {
-        Title : 'default',
-        Status: 'done'
+        apsudzetais : "case1",
+        laiks: 123
     }
 
 });
