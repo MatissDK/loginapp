@@ -15,403 +15,538 @@
     <schema id="8" parent="1" name="test"/>
     <table id="9" parent="7" name="administrativais_parkapuma_process"/>
     <table id="10" parent="7" name="administrativais_process"/>
-    <table id="11" parent="7" name="civilprocess"/>
-    <table id="12" parent="7" name="kriminalprocess"/>
-    <table id="13" parent="7" name="kriminalprocess_dub"/>
-    <table id="14" parent="7" name="last_update"/>
-    <table id="15" parent="7" name="links"/>
-    <table id="16" parent="7" name="login"/>
-    <table id="17" parent="7" name="tiesa"/>
-    <column id="18" parent="9" name="id">
+    <table id="11" parent="7" name="case_updates"/>
+    <table id="12" parent="7" name="civilprocess"/>
+    <table id="13" parent="7" name="kriminalprocess"/>
+    <table id="14" parent="7" name="kriminalprocess_dub"/>
+    <table id="15" parent="7" name="kriminalprocess_original"/>
+    <table id="16" parent="7" name="last_update"/>
+    <table id="17" parent="7" name="links"/>
+    <table id="18" parent="7" name="login"/>
+    <table id="19" parent="7" name="tiesa"/>
+    <column id="20" parent="9" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="19" parent="9" name="procesa_veids">
+    <column id="21" parent="9" name="procesa_veids">
       <Position>2</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="20" parent="9" name="laiks">
+    <column id="22" parent="9" name="laiks">
       <Position>3</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="21" parent="9" name="lietas_numurs">
+    <column id="23" parent="9" name="lietas_numurs">
       <Position>4</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="22" parent="9" name="arhiva_numurs">
+    <column id="24" parent="9" name="arhiva_numurs">
       <Position>5</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="23" parent="9" name="persona">
+    <column id="25" parent="9" name="persona">
       <Position>6</Position>
       <DataType>varchar(500)|0</DataType>
     </column>
-    <column id="24" parent="9" name="apsudzibas_panti">
+    <column id="26" parent="9" name="apsudzibas_panti">
       <Position>7</Position>
       <DataType>varchar(500)|0</DataType>
     </column>
-    <column id="25" parent="9" name="veids">
+    <column id="27" parent="9" name="veids">
       <Position>8</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="26" parent="9" name="tiesnesis">
+    <column id="28" parent="9" name="tiesnesis">
       <Position>9</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="27" parent="9" name="tiesa">
+    <column id="29" parent="9" name="tiesa">
       <Position>10</Position>
       <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="28" parent="9" name="instance">
+    <column id="30" parent="9" name="instance">
       <Position>11</Position>
       <DataType>varchar(100)|0</DataType>
     </column>
-    <key id="29" parent="9" name="PRIMARY">
+    <key id="31" parent="9" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="30" parent="10" name="id">
+    <column id="32" parent="10" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="31" parent="10" name="procesa_veids">
+    <column id="33" parent="10" name="procesa_veids">
       <Position>2</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="32" parent="10" name="laiks">
+    <column id="34" parent="10" name="laiks">
       <Position>3</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="33" parent="10" name="lietas_numurs">
+    <column id="35" parent="10" name="lietas_numurs">
       <Position>4</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="34" parent="10" name="arhiva_numurs">
+    <column id="36" parent="10" name="arhiva_numurs">
       <Position>5</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="35" parent="10" name="pieteicejs">
+    <column id="37" parent="10" name="pieteicejs">
       <Position>6</Position>
       <DataType>varchar(500)|0</DataType>
     </column>
-    <column id="36" parent="10" name="atbildetajs">
+    <column id="38" parent="10" name="atbildetajs">
       <Position>7</Position>
       <DataType>varchar(500)|0</DataType>
     </column>
-    <column id="37" parent="10" name="prasijums">
+    <column id="39" parent="10" name="prasijums">
       <Position>8</Position>
       <DataType>varchar(1000)|0</DataType>
     </column>
-    <column id="38" parent="10" name="veids">
+    <column id="40" parent="10" name="veids">
       <Position>9</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="39" parent="10" name="tiesnesis">
+    <column id="41" parent="10" name="tiesnesis">
       <Position>10</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="40" parent="10" name="tiesa">
+    <column id="42" parent="10" name="tiesa">
       <Position>11</Position>
       <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="41" parent="10" name="instance">
+    <column id="43" parent="10" name="instance">
       <Position>12</Position>
       <DataType>varchar(100)|0</DataType>
     </column>
-    <key id="42" parent="10" name="PRIMARY">
+    <key id="44" parent="10" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="43" parent="11" name="id">
+    <column id="45" parent="11" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="44" parent="11" name="procesa_veids">
+    <column id="46" parent="11" name="case_id">
       <Position>2</Position>
-      <DataType>varchar(45)|0</DataType>
-    </column>
-    <column id="45" parent="11" name="laiks">
-      <Position>3</Position>
-      <DataType>varchar(45)|0</DataType>
-    </column>
-    <column id="46" parent="11" name="lietas_numurs">
-      <Position>4</Position>
-      <DataType>varchar(45)|0</DataType>
-    </column>
-    <column id="47" parent="11" name="arhiva_numurs">
-      <Position>5</Position>
-      <DataType>varchar(45)|0</DataType>
-    </column>
-    <column id="48" parent="11" name="prasitajs">
-      <Position>6</Position>
-      <DataType>varchar(500)|0</DataType>
-    </column>
-    <column id="49" parent="11" name="atbildetajs">
-      <Position>7</Position>
-      <DataType>varchar(500)|0</DataType>
-    </column>
-    <column id="50" parent="11" name="butiba">
-      <Position>8</Position>
-      <DataType>varchar(1000)|0</DataType>
-    </column>
-    <column id="51" parent="11" name="veids">
-      <Position>9</Position>
-      <DataType>varchar(45)|0</DataType>
-    </column>
-    <column id="52" parent="11" name="tiesnesis">
-      <Position>10</Position>
-      <DataType>varchar(45)|0</DataType>
-    </column>
-    <column id="53" parent="11" name="tiesa">
-      <Position>11</Position>
-      <DataType>varchar(100)|0</DataType>
-    </column>
-    <column id="54" parent="11" name="instance">
-      <Position>12</Position>
-      <DataType>varchar(100)|0</DataType>
-    </column>
-    <key id="55" parent="11" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="56" parent="12" name="id">
-      <Position>1</Position>
       <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="57" parent="12" name="procesa_veids">
-      <Position>2</Position>
+    <column id="47" parent="11" name="procesa_veids">
+      <Position>3</Position>
       <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="58" parent="12" name="laiks">
-      <Position>3</Position>
-      <DataType>varchar(45)|0</DataType>
-    </column>
-    <column id="59" parent="12" name="lietas_numurs">
+    <column id="48" parent="11" name="laiks">
       <Position>4</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="60" parent="12" name="arhiva_numurs">
+    <column id="49" parent="11" name="lietas_numurs">
       <Position>5</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="61" parent="12" name="apsudzetais">
+    <column id="50" parent="11" name="arhiva_numurs">
       <Position>6</Position>
-      <DataType>varchar(500)|0</DataType>
+      <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="62" parent="12" name="apsudzibas_panti">
+    <column id="51" parent="11" name="apsudzetais">
       <Position>7</Position>
       <DataType>varchar(500)|0</DataType>
     </column>
-    <column id="63" parent="12" name="veids">
+    <column id="52" parent="11" name="apsudzibas_panti">
       <Position>8</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>varchar(500)|0</DataType>
     </column>
-    <column id="64" parent="12" name="tiesnesis">
+    <column id="53" parent="11" name="veids">
       <Position>9</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>varchar(500)|0</DataType>
     </column>
-    <column id="65" parent="12" name="tiesa">
+    <column id="54" parent="11" name="tiesnesis">
       <Position>10</Position>
-      <DataType>varchar(100)|0</DataType>
+      <DataType>varchar(150)|0</DataType>
     </column>
-    <column id="66" parent="12" name="instance">
+    <column id="55" parent="11" name="tiesa">
       <Position>11</Position>
-      <DataType>varchar(100)|0</DataType>
+      <DataType>varchar(250)|0</DataType>
     </column>
-    <index id="67" parent="12" name="SECONDARY">
-      <ColNames>lietas_numurs</ColNames>
+    <column id="56" parent="11" name="instance">
+      <Position>12</Position>
+      <DataType>varchar(250)|0</DataType>
+    </column>
+    <column id="57" parent="11" name="updateTime">
+      <Position>13</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="58" parent="11" name="KP_FK_idx">
+      <ColNames>case_id</ColNames>
     </index>
-    <key id="68" parent="12" name="PRIMARY">
+    <key id="59" parent="11" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="69" parent="13" name="id">
+    <foreign-key id="60" parent="11" name="KP_FK">
+      <ColNames>case_id</ColNames>
+      <RefSchemaName>scraper</RefSchemaName>
+      <RefTableName>kriminalprocess</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="61" parent="12" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="62" parent="12" name="procesa_veids">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="63" parent="12" name="laiks">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="64" parent="12" name="lietas_numurs">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="65" parent="12" name="arhiva_numurs">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="66" parent="12" name="prasitajs">
+      <Position>6</Position>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="67" parent="12" name="atbildetajs">
+      <Position>7</Position>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="68" parent="12" name="butiba">
+      <Position>8</Position>
+      <DataType>varchar(1000)|0</DataType>
+    </column>
+    <column id="69" parent="12" name="veids">
+      <Position>9</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="70" parent="12" name="tiesnesis">
+      <Position>10</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="71" parent="12" name="tiesa">
+      <Position>11</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="72" parent="12" name="instance">
+      <Position>12</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <key id="73" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="74" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="75" parent="13" name="procesa_veids">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="76" parent="13" name="laiks">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="77" parent="13" name="lietas_numurs">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="78" parent="13" name="arhiva_numurs">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="79" parent="13" name="apsudzetais">
+      <Position>6</Position>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="80" parent="13" name="apsudzibas_panti">
+      <Position>7</Position>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="81" parent="13" name="veids">
+      <Position>8</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="82" parent="13" name="tiesnesis">
+      <Position>9</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="83" parent="13" name="tiesa">
+      <Position>10</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="84" parent="13" name="instance">
+      <Position>11</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="85" parent="13" name="updateTime">
+      <Position>12</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="86" parent="13" name="my_index">
+      <ColNames>arhiva_numurs
+lietas_numurs</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="87" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="88" parent="13" name="my_index">
+      <ColNames>arhiva_numurs
+lietas_numurs</ColNames>
+      <UnderlyingIndexName>my_index</UnderlyingIndexName>
+    </key>
+    <trigger id="89" parent="13" name="update_trigger">
+      <Turn>after-row</Turn>
+      <Events>U</Events>
+    </trigger>
+    <column id="90" parent="14" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="70" parent="13" name="procesa_veids">
+    <column id="91" parent="14" name="procesa_veids">
       <Position>2</Position>
       <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="71" parent="13" name="laiks">
+    <column id="92" parent="14" name="laiks">
       <Position>3</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="72" parent="13" name="lietas_numurs">
+    <column id="93" parent="14" name="lietas_numurs">
       <Position>4</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="73" parent="13" name="arhiva_numurs">
+    <column id="94" parent="14" name="arhiva_numurs">
       <Position>5</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="74" parent="13" name="apsudzetais">
+    <column id="95" parent="14" name="apsudzetais">
       <Position>6</Position>
       <DataType>varchar(500)|0</DataType>
     </column>
-    <column id="75" parent="13" name="apsudzibas_panti">
+    <column id="96" parent="14" name="apsudzibas_panti">
       <Position>7</Position>
       <DataType>varchar(500)|0</DataType>
     </column>
-    <column id="76" parent="13" name="veids">
+    <column id="97" parent="14" name="veids">
       <Position>8</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="77" parent="13" name="tiesnesis">
+    <column id="98" parent="14" name="tiesnesis">
       <Position>9</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="78" parent="13" name="tiesa">
+    <column id="99" parent="14" name="tiesa">
       <Position>10</Position>
       <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="79" parent="13" name="instance">
+    <column id="100" parent="14" name="instance">
       <Position>11</Position>
       <DataType>varchar(100)|0</DataType>
     </column>
-    <index id="80" parent="13" name="lietas_numurs">
-      <ColNames>lietas_numurs</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="81" parent="13" name="lietas_numurs">
-      <ColNames>lietas_numurs</ColNames>
-      <UnderlyingIndexName>lietas_numurs</UnderlyingIndexName>
-    </key>
-    <column id="82" parent="14" name="id">
-      <Position>1</Position>
-      <DataType>int(10)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-    </column>
-    <column id="83" parent="14" name="date">
-      <Position>2</Position>
-      <DataType>varchar(40)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="84" parent="14" name="time">
-      <Position>3</Position>
-      <DataType>varchar(20)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <key id="85" parent="14" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="86" parent="15" name="id">
-      <Position>1</Position>
-      <DataType>int(10)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-    </column>
-    <column id="87" parent="15" name="url">
-      <Position>2</Position>
-      <DataType>varchar(100)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <key id="88" parent="15" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="89" parent="16" name="id">
+    <column id="101" parent="15" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="90" parent="16" name="name">
+    <column id="102" parent="15" name="procesa_veids">
       <Position>2</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="91" parent="16" name="email">
+    <column id="103" parent="15" name="laiks">
       <Position>3</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="92" parent="16" name="username">
+    <column id="104" parent="15" name="lietas_numurs">
       <Position>4</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="93" parent="16" name="password">
+    <column id="105" parent="15" name="arhiva_numurs">
       <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="106" parent="15" name="apsudzetais">
+      <Position>6</Position>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="107" parent="15" name="apsudzibas_panti">
+      <Position>7</Position>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="108" parent="15" name="veids">
+      <Position>8</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="109" parent="15" name="tiesnesis">
+      <Position>9</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="110" parent="15" name="tiesa">
+      <Position>10</Position>
       <DataType>varchar(100)|0</DataType>
     </column>
-    <key id="94" parent="16" name="PRIMARY">
+    <column id="111" parent="15" name="instance">
+      <Position>11</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <index id="112" parent="15" name="SECONDARY">
+      <ColNames>lietas_numurs</ColNames>
+    </index>
+    <key id="113" parent="15" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="95" parent="17" name="id">
+    <column id="114" parent="16" name="id">
       <Position>1</Position>
       <DataType>int(10)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="96" parent="17" name="procesa_veids">
+    <column id="115" parent="16" name="date">
+      <Position>2</Position>
+      <DataType>varchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="116" parent="16" name="time">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="117" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="118" parent="17" name="id">
+      <Position>1</Position>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="119" parent="17" name="url">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="120" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="121" parent="18" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="122" parent="18" name="name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="123" parent="18" name="email">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="124" parent="18" name="username">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="125" parent="18" name="password">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <key id="126" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="127" parent="19" name="id">
+      <Position>1</Position>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="128" parent="19" name="procesa_veids">
       <Position>2</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="97" parent="17" name="tests">
+    <column id="129" parent="19" name="tests">
       <Position>3</Position>
       <DataType>varchar(10)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="98" parent="17" name="tiesas_sedes_laiks">
+    <column id="130" parent="19" name="tiesas_sedes_laiks">
       <Position>4</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="99" parent="17" name="lietas_numurs">
+    <column id="131" parent="19" name="lietas_numurs">
       <Position>5</Position>
       <DataType>varchar(30)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="100" parent="17" name="arhiva_numurs">
+    <column id="132" parent="19" name="arhiva_numurs">
       <Position>6</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="101" parent="17" name="prasitajs">
+    <column id="133" parent="19" name="prasitajs">
       <Position>7</Position>
       <DataType>varchar(200)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="102" parent="17" name="atbildetajs">
+    <column id="134" parent="19" name="atbildetajs">
       <Position>8</Position>
       <DataType>varchar(200)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="103" parent="17" name="butiba">
+    <column id="135" parent="19" name="butiba">
       <Position>9</Position>
       <DataType>varchar(500)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="104" parent="17" name="tiesas_sedes_veids">
+    <column id="136" parent="19" name="tiesas_sedes_veids">
       <Position>10</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="105" parent="17" name="tiesnesis">
+    <column id="137" parent="19" name="tiesnesis">
       <Position>11</Position>
       <DataType>varchar(40)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="106" parent="17" name="PRIMARY">
+    <key id="138" parent="19" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

@@ -10,6 +10,7 @@ var Router = require('./app/router/routes');
 
 
 $(function() {
+    var a = {a: 10, b: 10, c: 9};
     new Router();
     Backbone.history.start({pushState: true});
 });

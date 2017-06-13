@@ -22,8 +22,6 @@
     "express-session": "*",
     "express-validator": "*",
     "jquery": "^3.2.1",
-    "mongodb": "*",
-    "mongoose": "*",
     "mustache": "^2.3.0",
     "mysql": "^2.13.0",
     "nodemailer": "^4.0.1",
@@ -33,10 +31,11 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
+    "browser-sync": "^2.18.12",
     "gulp": "^3.9.1",
     "gulp-watch": "^4.3.11",
-    "webpack": "^2.6.1",
     "gulp-webpack": "^1.5.0",
+    "webpack": "^2.6.1",
     "webpack-stream": "^3.2.0"
   }
 }
