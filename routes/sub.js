@@ -1,16 +1,13 @@
 var express = require('express');
 var router = express.Router();
 var passport = require('passport');
-var LocalStrategy = require('passport-local').Strategy;
 var Cases = require('../models/cases');
 
 var User = require('../models/user');
 
-// get case
+// get all cases with persons name
 router.post('/getCase', function(req, res) {
-
     var name = '%'+ req.body.name + '%';
-
     var errors = req.validationErrors();
 
     if (errors)
@@ -21,10 +18,8 @@ router.post('/getCase', function(req, res) {
     }
     else
     {
-        console.log(name);
-        Cases.getCaseByName(name, function (error, results, fields) {
+        Cases.getCaseByName(name, function (error, results) {
             if (error) throw error;
-            console.log('Results', results);
             res.json(results);
         });
     }

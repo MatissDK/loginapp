@@ -25,6 +25,7 @@
     "mongodb": "*",
     "mongoose": "*",
     "mysql": "^2.13.0",
+    "nodemailer": "^4.0.1",
     "passport": "*",
     "passport-http": "*",
     "passport-local": "*",

@@ -8,8 +8,6 @@ var flash = require('connect-flash');
 var session = require('express-session');
 var passport = require('passport');
 
-// mongoose.connect('mongodb://localhost/loginapp');
-// var db = mongoose.connection;
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -72,18 +70,13 @@ app.use(function (req, res, next) {
   next();
 });
 
-
-
 app.use('/', routes);
 app.use('/users', users);
 app.use('/sub', sub);
 
-
 app.get('*', function(req, res){
     res.render('error');
 });
-
-
 
 // Set Port
 app.set('port', (process.env.PORT || 4000));

@@ -4,16 +4,15 @@ var bcrypt = require('bcryptjs');
 
 var User = {
 
-createUser: (newUser, callback)=>
+createUser: (newUser, callback) =>
 {
      bcrypt.genSalt(10, function(err, salt) {
         bcrypt.hash(newUser.password, salt, function(err, hash) {
             newUser.password = hash;
-            return db.query('insert into login (name, email, username, password) VALUE (?, ?, ?, ?)',[newUser.name, newUser.email, newUser.username, newUser.password],
+            return db.query('INSERT INTO login (name, email, username, password) VALUE (?, ?, ?, ?)',[newUser.name, newUser.email, newUser.username, newUser.password],
                 callback);
         });
     });
-
 },
 
 getUserByUsername: (username, callback) =>
