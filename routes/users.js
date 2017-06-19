@@ -34,7 +34,7 @@ router.post('/register', function(req, res){
 	var errors = req.validationErrors();
 
 	if(errors){
-		res.render('register',{
+		res.render('login',{
 			errors:errors
 		});
 	} else {
@@ -50,7 +50,7 @@ router.post('/register', function(req, res){
 		});
 
 		req.flash('success_msg', 'You are registered and can login now');
-		res.redirect('/users/login');
+		res.redirect('login');
 	}
 });
 

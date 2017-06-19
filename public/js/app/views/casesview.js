@@ -40,8 +40,8 @@ var CasesView =  Backbone.View.extend({
     },
 
     render: function () {
-        this.$el.append("<input type='post' type='text' id='newTodo' autofocus/>");
-        this.$el.append("<button id='add'>Add</button>");
+        this.$el.append("<div class='col-lg-4 col-lg-offset-4'><input type='post' class='form-control' type='text' id='newTodo' autofocus/></div>");
+        this.$el.append("<button hidden id='add'>Search</button>");
 
 
         //this.$el.append("<table id='cases'></table>");
