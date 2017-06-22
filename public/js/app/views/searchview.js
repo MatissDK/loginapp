@@ -2,13 +2,10 @@ var Backbone = require('backbone');
 var _ = require('underscore');
 var CaseView = require('./caseview');
 
-var CasesView =  Backbone.View.extend({
+var SearchView =  Backbone.View.extend({
 
     // tagName: 'table',
     // className: 'table table-striped',
-
-    tagName: 'div',
-    className: 'table-responsive',
 
     initialize:function(){
         this.collection.on('add', this.onOneAdd,this);
@@ -21,7 +18,7 @@ var CasesView =  Backbone.View.extend({
 
     events: {
         'click #add' : 'onAdd',
-        'keypress #search' : 'onKeyPress'
+        'keypress #newTodo' : 'onKeyPress'
     },
 
     onKeyPress: function(e){
@@ -31,7 +28,7 @@ var CasesView =  Backbone.View.extend({
     },
 
     onAdd: function(){
-        var $textBox = this.$('#search');
+        var $textBox = this.$('#newTodo');
         if($textBox.val()){
             this.$('#cases').html('');
             this.collection.fetch({
@@ -43,10 +40,12 @@ var CasesView =  Backbone.View.extend({
     },
 
     render: function () {
-        // this.$el.append("<input type='post' class='form-control' type='text' id='newTodo' autofocus/>");
-        // this.$el.append("<button hidden id='add'>Search</button>");
+        this.$el.append("<input type='post' class='form-control' type='text' id='newTodo' autofocus/>");
+        this.$el.append("<button hidden id='add'>Search</button>");
+
+
         //this.$el.append("<table id='cases'></table>");
-        this.$el.append('<table id="cases" class="table table-striped"></table>');
+        this.$el.append('<div class="table-responsive"><table id="cases" class="table table-striped"></table></div>');
 
         //this.$el.append("<div id='test'></div>");
 

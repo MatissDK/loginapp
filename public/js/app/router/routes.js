@@ -21,8 +21,9 @@ var Router = Backbone.Router.extend({
         if(!this.caseListView)
         {
             var myCases = new CaseCollection();
-            this.caseListView = new CasesView({collection: myCases});
-            $('#container').append(this.caseListView.render().$el);
+            this.caseListView = new CasesView({collection: myCases, el: '#container'});
+            window.test = this.caseListView;
+            $('#cases').append(this.caseListView.render().$el);
 
             // var columns = [{
             //     name: "id", // The key of the model attribute
